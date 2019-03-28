@@ -1,0 +1,10 @@
+1. Results of both the VWAP and SMAP for Disney seem MUCH too high relative to the Benchmark. There may be some chronological bias going on
+   Confirm that the set_value function is correct
+
+2. Should probably show graph of return growth for the the buy/hold, VWAP, and SMAP strategy
+
+3. What are the two plot graphs trying to communicate?
+
+4. Why does the plot of the line on the second chart (strategy value vs. benchmark value) not seem to fit the data points
+
+5. We should introduce and better explain what we hope to achieve by this analysis
