@@ -8,3 +8,7 @@
 4. Why does the plot of the line on the second chart (strategy value vs. benchmark value) not seem to fit the data points
 
 5. We should introduce and better explain what we hope to achieve by this analysis
+
+6. start function with the "Disney" print out is fixed on 2010-01-04 even when the variable is changed...
+
+7. Consider using backtrader or pyfolio packages to simplify calculations
