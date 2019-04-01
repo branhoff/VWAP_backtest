@@ -1,6 +1,3 @@
-1. Results of both the VWAP and SMAP for Disney seem MUCH too high relative to the Benchmark. There may be some chronological bias going on
-   Confirm that the set_value function is correct
-
 2. Should probably show graph of return growth for the the buy/hold, VWAP, and SMAP strategy
 
 3. What are the two plot graphs trying to communicate?
@@ -9,6 +6,9 @@
 
 5. We should introduce and better explain what we hope to achieve by this analysis
 
-6. start function with the "Disney" print out is fixed on 2010-01-04 even when the variable is changed...
-
 7. Consider using backtrader or pyfolio packages to simplify calculations
+
+9. Error discovered in the set_singal function. Signal is being set the day of the intiation. It needs to be added to the
+   next row and be calculated with delay
+
+10. Results of SMAP and VWAP seem much too similar... I would expect VWAP to be much slower than the SMAP
