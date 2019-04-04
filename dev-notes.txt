@@ -12,3 +12,9 @@
    next row and be calculated with delay
 
 10. Results of SMAP and VWAP seem much too similar... I would expect VWAP to be much slower than the SMAP
+
+11. Look into using the module Seaborn for histograms - https://seaborn.pydata.org/tutorial/distributions.html
+
+12. Need to identify large outlier created with the S&P 500 Data.
+    I think this is being caused by a short timefram for the test. Need to write a script that will only capture stocks with data at least
+    back to 2010 (or whenever start date is)
