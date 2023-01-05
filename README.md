@@ -1,3 +1,32 @@
 VWAP Backtest
 
 Project intends to test whether a stock's Volume Weighted Average Price serves as a better indicator of a stock's future price than the Simple Average Price with an identical lookback range.
+
+## TODOs for Developers
+1. Needs to be more dynamic and pull data directly from data provider's API
+
+2. Should probably show graph of return growth for the the buy/hold, VWAP, and SMAP strategy
+
+3. What are the two plot graphs trying to communicate?
+
+4. Why does the plot of the line on the second chart (strategy value vs. benchmark value) not seem to fit the data points
+
+5. We should introduce and better explain what we hope to achieve by this analysis
+
+7. Consider using backtrader or pyfolio packages to simplify calculations
+
+9. Error discovered in the set_singal function. Signal is being set the day of the intiation. It needs to be added to the
+   next row and be calculated with delay
+
+10. Results of SMAP and VWAP seem much too similar... I would expect VWAP to be much slower than the SMAP
+
+11. Look into using the module Seaborn for histograms - https://seaborn.pydata.org/tutorial/distributions.html
+
+12. Need to identify large outlier created with the S&P 500 Data.
+    I think this is being caused by a short timefram for the test. Need to write a script that will only capture stocks with data at least
+    back to 2010 (or whenever start date is)
+
+13. Consider including R^2 in Gaussian curve
+
+14. I'm attempting to build out the portion of the code that will cycle through different lookbacks and repeat the calculations
+in the original code. Problem is that storing that data is messy and not very adaptable. Need to research preferred way to write code so that it can flexibly store additional and new variable names without being manually hard coded in. Talk to people at RMOTR or chipy to find common solution to problem.
