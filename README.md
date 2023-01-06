@@ -1,6 +1,17 @@
 VWAP Backtest
 
-Project intends to test whether a stock's Volume Weighted Average Price serves as a better indicator of a stock's future price than the Simple Average Price with an identical lookback range.
+Project intends to test whether a stock's Volume Weighted Average Price serves as a better indicator of a asset's future price than the Simple Average Price with an identical lookback range.
+
+## Setup
+Run the `install_dependencies.sh` script from the project root directory to create a virtual environment and install the necessary packages.
+
+Currently, we are using Alpha Vantage's Endpoints to collect data.
+
+See: https://rapidapi.com/alphavantage/api/alpha-vantage/endpoints
+
+Sign up for an account and retrieve an API key from Alpha Vantage. Once you have subscribed to the Stock Time Series `TIME_SERIES_DAILY` you can pull stock historical daily price data.
+
+Create a `.env` file at the root of the project directory and add an environment variable `X_RAPID_API_KEY=your_api_key`
 
 ## TODOs for Developers
 1. Needs to be more dynamic and pull data directly from data provider's API
