@@ -16,7 +16,7 @@ Sign up for an account and retrieve an API key from Alpha Vantage. Once you have
 Create a `.env` file at the root of the project directory and add an environment variable `X_RAPID_API_KEY=your_api_key`
 
 ## Rerunning the analysis `vwap_vs_smap_equity.ipynb`
-If you wish to rerun the jupyter notebook cells, be sure that your notebook's kernel is appropriately pointed to the virtual environment `.venv` we created.
+If you wish to rerun the jupyter notebook cells, be sure that your notebook's kernel is appropriately pointed to the virtual environment `.venv` we created with the `install_dependencies` script.
 
 ## TODOs for Developers
 1. Needs to be more dynamic and pull data directly from data provider's API
