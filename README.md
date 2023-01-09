@@ -3,6 +3,8 @@ VWAP Backtest
 Project intends to test whether a stock's Volume Weighted Average Price serves as a better indicator of a asset's future price than the Simple Average Price with an identical lookback range.
 
 ## Setup
+Note that the version of Pandas module `from pandas.plotting import _converter` does not play well with Python versions greater that `3.7`.
+
 Run the `install_dependencies.sh` script from the project root directory to create a virtual environment and install the necessary packages.
 
 Currently, we are using Alpha Vantage's Endpoints to collect data.
@@ -12,6 +14,9 @@ See: https://rapidapi.com/alphavantage/api/alpha-vantage/endpoints
 Sign up for an account and retrieve an API key from Alpha Vantage. Once you have subscribed to the Stock Time Series `TIME_SERIES_DAILY` you can pull stock historical daily price data.
 
 Create a `.env` file at the root of the project directory and add an environment variable `X_RAPID_API_KEY=your_api_key`
+
+## Rerunning the analysis `vwap_vs_smap_equity.ipynb`
+If you wish to rerun the jupyter notebook cells, be sure that your notebook's kernel is appropriately pointed to the virtual environment `.venv` we created.
 
 ## TODOs for Developers
 1. Needs to be more dynamic and pull data directly from data provider's API
