@@ -25,6 +25,8 @@ If you wish to rerun the jupyter notebook cells, be sure that your notebook's ke
 
 3. What are the two plot graphs trying to communicate?
 
+3. Need unit tests for the `metrics.py` to ensure confidence
+
 4. Why does the plot of the line on the second chart (strategy value vs. benchmark value) not seem to fit the data points
 
 5. We should introduce and better explain what we hope to achieve by this analysis
