@@ -22,6 +22,8 @@ If you wish to rerun the jupyter notebook cells, be sure that your notebook's ke
 ## TODOs
 1. ~~Needs to be more dynamic and pull data directly from data provider's API~~
 
+1. Consider using StockData as a wrapper that calls a AlphaVantage class to decouple and make refactoring easier in the future if the API changes
+
 1. in the metadata fields of the stock price jsons, we should add fields on what relevant index it is related to. In the future, if we expand to cryptocurrencies, we'll need to add a field for asset type as well
 
 2. Should probably show graph of return growth for the the buy/hold, VWAP, and SMAP strategy
