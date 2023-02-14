@@ -10,7 +10,7 @@ entrypoints==0.4
 environs==9.5.0
 idna==3.4
 ipykernel==6.16.2
-ipython==7.34.0
+ipython==8.10.0
 jedi==0.18.2
 jupyter_client==7.4.9
 jupyter_core==4.12.0
